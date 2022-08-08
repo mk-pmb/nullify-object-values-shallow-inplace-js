@@ -1,0 +1,37 @@
+{ "name": "nullify-object-values-shallow-inplace",
+  "version": "0.1.0",
+  "description": "Replace all values in an object with null. Can be useful to help garbage collection while still shadowing same-named prototype keys.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/nullify-object-values-shallow-inplace-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/nullify-object-values-shallow-inplace-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/nullify-object-values-shallow-inplace-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "index.js",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.5",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.11",
+    "p-tape-all-in-list": "^0.1.1",
+    "usnam-pmb": "^0.2.5"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
